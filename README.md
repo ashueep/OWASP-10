@@ -5,7 +5,7 @@ The Open Web Application Security Project is an online community that produces f
 This Repo covers the top 10 known vulns by OWASP.
 
 * [Injection](/Injection)
-* Broken Authentication
+* [Broken Authentication](/BrokenAuth)
 * Sensitive Data Exposure
 * XML External Entity
 * Broken Access Control
