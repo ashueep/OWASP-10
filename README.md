@@ -14,4 +14,3 @@ This Repo covers the top 10 known vulns by OWASP.
 * Insecure Deserialization
 * Components with Known Vulnerabilities
 * Insufficent Logging & Monitoring
-
