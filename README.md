@@ -11,6 +11,6 @@ This Repo covers the top 10 known vulns by OWASP.
 * [Broken Access Control](/BrokenAccess)
 * [Security Misconfiguration](/Misconfig)
 * [Cross-site Scripting](/XSS)
-* [Insecure Deserialization](/InsecureDesrialization)
+* [Insecure Deserialization](/InsecureDeserialization)
 * [Components with Known Vulnerabilities](/KnownVulns)
 * [Insufficent Logging & Monitoring](/Logging)
