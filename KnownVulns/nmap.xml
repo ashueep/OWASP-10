@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 17 05:46:18 2020 as: nmap -sV -A -p 22,80 -oN nmap.txt -oX nmap.xml 10.10.181.192 -->
+<nmaprun scanner="nmap" args="nmap -sV -A -p 22,80 -oN nmap.txt -oX nmap.xml 10.10.181.192" start="1608201978" startstr="Thu Dec 17 05:46:18 2020" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="2" services="22,80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1608201979" endtime="1608201993"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.181.192" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.6p1 Ubuntu 4ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 e0:c2:1d:6a:e4:cb:9f:68:75:b3:dd:4a:46:79:bb:22 (RSA)&#xa;  256 ad:c7:3b:12:f0:e1:de:ea:44:58:60:f8:f2:eb:86:f8 (ECDSA)&#xa;  256 32:a4:7a:64:58:0f:c0:01:c2:92:28:50:97:94:44:14 (ED25519)"><table>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCf7Lg79L9TN+xzqWrBVFrMfXj8fCoXBuszLLd+HTd26cOPB53BIElLusxKq8bB5Ms06Ezyk6GKKkzmAVpbNRsjjvCUGpiCiSfC+RvzXKYfz00+fDzkbi2NrjrYqvXKA5mTgXpD0+bJp3g6rhxL6hAUz9FCi8yKlmrDo2dD0+w9LNUFnQ6OXLv7798e6IFKY9ZuuSh8t6aB5jYs1d3ctF7QjZtVHfinflStLBy47jQE/7ev+OxS563oppVpgiMCK9weiorBYdVL6VU3D+IgKwMJYj04qo2vBUbEBWVGkdEQv+S8ZED0m5irNiQsi8gqjsj/HqYRtQ9eRmlU60mCuWTt</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="fingerprint">e0c21d6ae4cb9f6875b3dd4a4679bb22</elem>
+</table>
+<table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKJEo0dPue63DXQ1pm0KQ6fXCqlFilJ7wEPn1YeCMrTVFLg0eb7vtkrBctVD3Yu6fe37VKV+TymFNCHuchCtXAM=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">adc73b12f0e1deea445860f8f2eb86f8</elem>
+</table>
+<table>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAILNFUGO1ImAlRvRuIYUNpAliijl6JMkNSZ7HeoIFDSIU</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">32a47a64580fc001c292285097944414</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.29" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.29</cpe></service><script id="http-cookie-flags" output="&#xa;  /: &#xa;    PHPSESSID: &#xa;      httponly flag not set"><table key="/">
+<table key="PHPSESSID">
+<elem>httponly flag not set</elem>
+</table>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.29 (Ubuntu)"><elem>Apache/2.4.29 (Ubuntu)</elem>
+</script><script id="http-title" output="Index"><elem key="title">Index</elem>
+</script></port>
+</ports>
+<times srtt="221387" rttvar="126728" to="728299"/>
+</host>
+<runstats><finished time="1608201993" timestr="Thu Dec 17 05:46:33 2020" elapsed="15.16" summary="Nmap done at Thu Dec 17 05:46:33 2020; 1 IP address (1 host up) scanned in 15.16 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
